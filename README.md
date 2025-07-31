@@ -33,13 +33,18 @@ A machine learning algorithm was used to train the model. The project categorica
 Different evaluation metrics were considered before final acceptance of the Model.
 
 -- Accuracy-- The ratio of correctly predicted observations to the total observations.
+
 -- Precision-- The ability of the classifier not to label a negative sample as positive.
+
 -- Recall-- The ability of the classifier to find all the positive samples.
 
 ## Key Insights
 As randomForestClassifier was used as our Baseline model and the model we are using. Our recall on both classes for class 0 was 0.99847, and class 1 was 0.05574. Accuracy was 0.90007, which is a high Accuracy, but did not explain the whole scenario. The False Negative was 288, which can still be improved on. 
+
 Class weight of {0:1, 1:6} was used to improve the minority class, while the model was retrained. We had a slight improvement in the false Negative from 288 to 286 after class_weight.
+
 We went further by applying the SMOTE technique by oversampling the minority class to have equal class balance, and the model was retrained. Recall on both class 0, now 0.97992, and class 1, 0.92527, Accuracy at 0.95261. False Negative is now 197.
+
 Feature Importances was done to know the features that contributed most to Customer's Churn and determine if Price is sensitive to Customer's Churn as well.
 
 ## Conclusion.
