@@ -15,7 +15,7 @@
 The Primary Objective of this Project is to determine whether price sensitivity is the cause of customer churn, identify the key drivers behind Churn, and recommend a strategy to reduce Churn and improve retention.
 
 ## Data Source
-The Data used in this project was provided by BCG X, with features like "date_end, date_modif_prod,	date_renewal," etc.
+The Data used in this project was provided by BCG X for a company called PowerCo (A leading Power Company), with features like "date_end, date_modif_prod,	date_renewal," etc.
 
 ## Exploratory Data Analysis
 EDA was performed to uncover different patterns in the datasets. The Datasets had 14606 entries in the client Data and 193002 entries in the price data. No Null and duplicate Values were recorded. Univariate, Bivariate, and Multivariate Analysis were performed to uncover different patterns in the Datasets.
@@ -48,5 +48,8 @@ We went further by applying the SMOTE technique by oversampling the minority cla
 Feature Importances was done to know the features that contributed most to Customer's Churn and determine if Price is sensitive to Customer's Churn as well.
 
 ## Conclusion.
+PowerCo’s churn is influenced by customer behavior and lifestyle rather than pricing as assumed, with the improved model built, customers likely to churn can be identified earlier and engage them effectively beyond pricing strategy to customer personalisation.
+
+
 
 
