@@ -2,13 +2,21 @@
 
 ## Table of Content
 -[Project Objective] (#project-objective)
+
 -[Data Source]
+
 -[Exploratory Data Analysis] (#Exploratory-Data Analysis)
+
 -[Feature Engineering] (#Feature-Engineering)
+
 -[Data Preprocessing] (#Data-Preprocessing)
+
 -[Machine Learning Model] (#Machine-Learning-Model)
+
 -[Evaluation Metrics] (#Evaluation-metrics)
+
 -[Key insights] (#Key-insights)
+
 -[Conclusions] (#Conclusions)
 
 ## Project Objective
